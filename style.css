@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+
 body {
     background-color: #12121200;
 }
@@ -13,10 +17,26 @@ img {
 }
 
 .list img {
+    padding: 0;
+    margin: 0;
     transition: 0.5s ease;
 }
 
 .list img:hover {
     filter: grayscale(1);
     transform: scale(0.99);
+}
+
+.list figure {
+    display: inline-block;
+    margin: 0;
+}
+
+figcaption {
+    font-family: "Space Grotesk", sans-serif;
+    color: #ccc;
+    font-size: 0.6rem;
+    text-align: left;
+    text-decoration: none;
+    padding-bottom: 1em;
 }

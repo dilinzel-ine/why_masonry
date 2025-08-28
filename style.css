@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 0.9em;
+    border-radius: 2%;
+}
+
+.list {
+    columns: 170px;
+}
+
+.list img {
+    transition: 0.5s ease;
+}
+
+.list img:hover {
+    filter: grayscale(1);
+    transform: scale(0.99);
+}
